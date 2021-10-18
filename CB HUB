@@ -89,6 +89,7 @@ On.MouseButton1Down:connect(function()
 		end
 
 		return nc(self, ...)
+	end)
 end)
 	
 KillAll.Name = "Kill All"
@@ -142,6 +143,7 @@ off.MouseButton1Down:connect(function()
 		end
 
 		return nc(self, ...)
+	end)
 end)
 	
 Skin.Name = "Skin"
