@@ -90,8 +90,7 @@ On.MouseButton1Down:connect(function()
 
 		return nc(self, ...)
 	end)
-end)
-
+	
 KillAll.Name = "Kill All"
 KillAll.Parent = main
 KillAll.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
@@ -144,8 +143,7 @@ off.MouseButton1Down:connect(function()
 
 		return nc(self, ...)
 	end)
-end)
-
+	
 Skin.Name = "Skin"
 Skin.Parent = main
 Skin.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
