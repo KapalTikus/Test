@@ -12,6 +12,9 @@ local KillAll = Instance.new("TextLabel")
 local off = Instance.new("TextButton")
 local Skin = Instance.new("TextButton")
 local Hop = Instance.new("TextButton")
+local CloseGui = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local OpenGui = Instance.new("TextButton")
 
 --Properties:
 
