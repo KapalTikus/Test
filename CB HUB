@@ -172,3 +172,36 @@ Hop.TextSize = 20.000
 Hop.MouseButton1Down:connect(function()
 	game:GetService("TeleportService"):Teleport(301549746, game:GetService("Players").LocalPlayer)
 end)
+
+CloseGui.Name = "CloseGui"
+CloseGui.Parent = main
+CloseGui.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+CloseGui.Position = UDim2.new(0.231143594, 0, -0.0994153023, 0)
+CloseGui.Size = UDim2.new(0, 141, 0, 34)
+CloseGui.Font = Enum.Font.SourceSans
+CloseGui.Text = "Close Gui"
+CloseGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseGui.TextSize = 20.000
+CloseGui.MouseButton1Down:connect(function()
+	main.Visible = false
+end)
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Frame.Position = UDim2.new(0, 0, 0.425414354, 0)
+Frame.Size = UDim2.new(0, 140, 0, 25)
+Frame.Active = true
+Frame.Draggable = true
+
+OpenGui.Name = "OpenGui"
+OpenGui.Parent = Frame
+OpenGui.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
+OpenGui.Size = UDim2.new(0, 140, 0, 25)
+OpenGui.Font = Enum.Font.SourceSans
+OpenGui.Text = "Open"
+OpenGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenGui.TextSize = 20.000
+OpenGui.TextWrapped = true
+OpenGui.MouseButton1Down:connect(function()
+	main.Visible = true
+end)
