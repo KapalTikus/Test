@@ -159,7 +159,7 @@ Skin.Text = "Unlock Skin"
 Skin.TextColor3 = Color3.fromRGB(0, 0, 0)
 Skin.TextSize = 20.000
 Skin.MouseButton1Down:connect(function()
-loadstring(game:HttpGet('https://github.com/KapalTikus/Test/blob/main/skin.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KapalTikus/Test/main/skin.lua'))()
 end)
 
 
